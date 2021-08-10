@@ -21,7 +21,8 @@ h4, h5 {
     font-size: 2,8rem;
 }
 
-li {
+li
+button {
     font-size: 2rem;
 }
 a {
@@ -45,6 +46,7 @@ nav {
     width: 90%;
     margin: auto;
     padding: 2rem;
+    flex-wrap: wrap;
 }
 nav ul {
     display: flex;
@@ -66,11 +68,12 @@ nav ul {
     background: url(image2.png.jpg);
     background-size: cover;
     background-position: center;
-    color: #b61616;
+    color: #2b28cf;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   
 }
 
@@ -79,9 +82,22 @@ nav ul {
 }
 button {
     padding: 2rem 6rem;
-    background: #b61616;
+    background: #2b28cf;
     color: #ffffff;
     font-size: 2rem;
     cursor: pointer;
     border: none;
+}
+
+@media screen and (max-width:885px){
+
+    html {
+        font-size: 45%;
+    }
+    nav {
+        text-align: center;
+    }
+    #logo {
+        padding: 2rem;
+    }
 }
