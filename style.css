@@ -1,8 +1,87 @@
 * {
-    max-width: 0;
+    margin: 0;
     padding: 0;
-    border:  black;
 }
 html {
-    font-size: medium;
+    font-size: 62,5%;
+}
+
+
+h1 {
+    font-size: 2,6rem;
+}
+h2 {
+    font-size: 4,8rem;
+}
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+h4, h5 {
+    font-size: 2,8rem;
+}
+
+li {
+    font-size: 2rem;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-head {
+    background: #2b28cf;
+    color: #ffffff;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 2 1 40rem; 
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+.hero {
+    min-height: 90vh;
+    min-width: 90vh;
+    background: url(image2.png.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #b61616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.hero h3 {
+    padding: 4rem;
+}
+button {
+    padding: 2rem 6rem;
+    background: #b61616;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
 }

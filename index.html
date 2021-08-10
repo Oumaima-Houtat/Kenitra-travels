@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Kenitra travels</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Kenitra</h1>
+    <header class="main-head">
+        <nav>
+            <h1 id="logo">Kenitra</h1>
+            <ul>
+                <li><a href="#">City</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <section class="hero">
+        <h3>Kenitra travels hotel</h3>
+        <h1>A comprehensive guide that lists the hottest places in Kenitra</h1>
+        <button>Contact us</button>
+
+    </section>
+    <br>
+    <div>
+        <label for="username">Username:</label>
+        
+        <input type="text" id="username" name="username">
+    </div>
+    <br>
+    
+    <div>
+        <label for="pass">Password</label>
+        <input type="password" placeholder="8 characters minimum" id="pass" name="password"
+               minlength="8" required>
+               <br>
+               <br>
+
+         <label>Email</label>   
+         <input type="email" placeholder="veuillez entrer votre email">   
+    </div>
+    <br>
+
+    
+    <input type="submit" value="Sign in">
     
 </body>
 </html>
