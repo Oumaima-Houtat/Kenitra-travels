@@ -29,6 +29,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+div {
+    position: relative;
+    
+}
+
 
 body {
     font-family: 'Poppins', sans-serif;
